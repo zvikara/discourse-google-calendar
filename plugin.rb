@@ -10,7 +10,7 @@ class Oneboxer::GoogleCalendarOnebox < Oneboxer::BaseOnebox
   matcher /^https?:\/\/(?:www\.)?google\.com\/calendar\/embed\?.+/
 
   def onebox
-    "<iframe src='#{@url}' style='border-width:0' frameborder='0' scrolling='no' width='100%'></iframe>"
+    "<iframe src='#{@url}' style='border-width:0' frameborder='0' scrolling='no' width='100%' height='350px'></iframe>"
   end
 
 end
